@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+
+int main()
+{
+ float a,b,c,d,e,total,average;
+ printf("enter five number\n");
+ scanf("%f%f%f%f%f",&a,&b,&c,&d,&e);
+ total=a+b+c+d+e;
+ printf("%.1f\n",total);
+ average=total/5;
+ printf("%.1f",average);
+ return 0;
+}
