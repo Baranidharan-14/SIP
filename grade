@@ -1,0 +1,21 @@
+
+    int per;
+   
+    scanf("%d",&per);
+    if(per>=91&&per<=100)
+    printf("O GRADE");
+    else if(per>=81&&per<=90)
+    printf("A+ GRADE");
+    else if(per>=71&&per<=80)
+    printf("A GRADE");
+    else if(per>=61&&per<=70)
+    printf("B+ GRADE");
+    else if(per>=51&&per<=60)
+    printf("B GRADE");
+    else
+    printf("YOU ARE FAIL");
+   
+    
+    
+    return 0;
+}
